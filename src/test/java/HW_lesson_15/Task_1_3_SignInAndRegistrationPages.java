@@ -14,16 +14,16 @@ public class Task_1_3_SignInAndRegistrationPages {
 
         driver.get("https://qa-course-01.andersenlab.com/login");
         driver.navigate().to("https://qa-course-01.andersenlab.com/registration");
-        Thread.sleep(2);
+        Thread.sleep(2000);
         System.out.println("After redirection to URL: " + driver.getTitle() + "," + driver.getCurrentUrl());
         driver.navigate().back();
         System.out.println("After redirection back: " + driver.getTitle() + "," + driver.getCurrentUrl());
-        Thread.sleep(2);
+        Thread.sleep(2000);
         driver.navigate().forward();
         System.out.println("After redirection forward: " + driver.getTitle() + "," + driver.getCurrentUrl());
-        Thread.sleep(2);
+        Thread.sleep(2000);
         driver.navigate().refresh();
-        Thread.sleep(2);
+        Thread.sleep(2000);
 
         driver.quit();
     }
