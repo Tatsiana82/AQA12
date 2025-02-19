@@ -16,14 +16,14 @@ import java.time.Duration;
 
 public class Task_2_DragAndDrop {
     private static class FindLocators {
-        private static final By manual_1 = By.id("manual1");
-        private static final By manual_2 = By.id("manual2");
-        private static final By auto_1 = By.id("auto1");
-        private static final By auto_2 = By.id("auto2");
-        private static final By targetManual1 = By.id("target-manual1");
-        private static final By targetManual2 = By.id("target-manual2");
-        private static final By targetAuto1 = By.id("target-auto1");
-        private static final By targetAuto2 = By.id("target-auto2");
+        private static By manual_1 = By.id("manual1");
+        private static By manual_2 = By.id("manual2");
+        private static By auto_1 = By.id("auto1");
+        private static By auto_2 = By.id("auto2");
+        private static By targetManual1 = By.id("target-manual1");
+        private static By targetManual2 = By.id("target-manual2");
+        private static By targetAuto1 = By.id("target-auto1");
+        private static By targetAuto2 = By.id("target-auto2");
     }
 
     static WebDriver driver;
